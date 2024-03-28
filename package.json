@@ -1,0 +1,24 @@
+{
+  "name": "local.freeway",
+  "version": "0.0.0",
+  "description": "Run freeway locally!",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alan Shaw",
+  "license": "Apache-2.0 OR MIT",
+  "dependencies": {
+    "@ipld/car": "^5.3.0",
+    "@web3-storage/content-claims": "^4.0.3",
+    "@web3-storage/gateway-lib": "^4.1.1",
+    "cardex": "^3.0.2",
+    "dagula": "^7.3.0",
+    "dotenv": "^16.4.5",
+    "lnmap": "^2.0.0",
+    "lnset": "^1.2.0",
+    "multiformats": "^13.1.0"
+  }
+}
